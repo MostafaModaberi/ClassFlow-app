@@ -1,0 +1,48 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Blue circle background around the logo -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M 54,14 A 40,40 0 1,1 54,94 A 40,40 0 1,1 54,14" />
+
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.7"
+        android:scaleY="0.7">
+        <!-- Circular outline of the CF Monogram with gap at the right -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="7"
+            android:strokeLineCap="round"
+            android:pathData="M 75,34 A 28,28 0 1,0 76,71" />
+
+        <!-- Inner 'F' / 'C' styling components of the logo -->
+        <!-- Vertical Bar of F -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 49,43 L 49,69 C 49,71 51,71 54,71 L 54,71" />
+        <!-- Top Horizontal Bar of F -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="6"
+            android:strokeLineCap="round"
+            android:pathData="M 49,46 L 76,46" />
+        <!-- Bottom Horizontal Bar of F -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="6"
+            android:strokeLineCap="round"
+            android:pathData="M 49,58 L 67,58" />
+        <!-- Bottom small dot/square as in the custom logo -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 49,72 L 55,72 L 55,78 L 49,78 Z" />
+    </group>
+</vector>
